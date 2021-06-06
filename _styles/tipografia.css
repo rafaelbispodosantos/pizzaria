@@ -14,3 +14,30 @@ vermelho Claro:#F03733
 Cinza Claro:#f7f7f7
 cinza escuro: #404040
 */
+
+*{
+  font-size: 16px;
+}
+
+h1, h2, h3{
+  font-family: 'Fredericka the Great' , cursive;
+  text-align: center;
+  text-transform: uppercase;
+  color: #D90404;
+}
+
+h4, h5, h6 {
+  font-family: 'Pacifico' , cursive;
+  text-align: center;
+  color:  #F2B705;
+}
+
+h1 {
+  font-size:600%;
+  font-weight:200;
+}
+
+h2 {
+  font-size:400%;
+  font-weight:200;
+}
