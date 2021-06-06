@@ -41,3 +41,7 @@ h2 {
   font-size:400%;
   font-weight:200;
 }
+
+p,li,a {
+  font-family: 'Open Sans' , sans-serif;
+}
