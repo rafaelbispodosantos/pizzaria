@@ -111,3 +111,39 @@ header div#chamada {
 
   transform: translate(-50%, -50%);
 }
+
+/* ------------------------*/
+/*Seção - DOMINGO PERFEITO */
+/* ------------------------*/
+
+section#domingo-perfeito {
+  width:100%;
+  padding: 40px 0  80px;
+
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+div#domingo-perfeito-esquerda, div#domingo-perfeito-direita {
+  position: relative;
+  width: 15%;
+  background-color: darkcyan;
+}
+
+div#domingo-perfeito-centro {
+  width: 65%;
+}
+
+div#pontos-chaves-mestre {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; 
+  
+}
+
+div.pontos-chaves {
+  text-align: center;
+  width:25%;
+}

@@ -74,3 +74,31 @@ header div#chamada a{
   background: linear-gradient(rgba(7, 140,49,55) 0%, rgba(6,89,2,35)50%, rgba(6,89,2,35)100%);
 
 }
+
+/* --------------------*/
+/*Elementos do Section */
+/* ---------------------*/
+section div#domingo-perfeito-centro h2{
+  font-size:300%;
+}
+section div#domingo-perfeito-centro h2:after {
+  display: block;
+  background-color:#078c31;
+
+  height: 5px;
+  width: 20%;
+  margin: 20px auto 30px;content: " ";
+
+}
+div.pontos-chaves h4 {
+  color: #404040;  
+}
+div.pontos-chaves h4:after {
+  display: block;
+  background-color:#078c31;
+
+  height: 5px;
+  width: 30%;
+  margin: 20px auto 10px;content: " ";
+
+}
