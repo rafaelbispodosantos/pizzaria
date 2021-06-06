@@ -18,9 +18,10 @@ cinza escuro: #404040
 }
 
 nav {
-  width: 100%;
+  width: 95%;
   height: 200px;
   background: #F2B705;
+  margin: 10px auto;
 }
 
 div#logo {
@@ -52,16 +53,36 @@ nav ul li {
   list-style: none;
 
 }
+nav ul li a#criar-conta {
+  border: 1px solid #fff;
+  padding:9px 29px;
+
+}
 
 nav ul li a {
   color: white;
   text-decoration: none;
   padding: 10px 30px ;
   border-radius: 70px;
+  font-size: 80%;
 }
 
 nav ul li a:hover{
   background-color: darkgreen;
 
   transition-duration: 0.8s;
+}
+
+nav ion-icon#icone-user {
+  width: 45px;
+  height: 45px;
+  color: white;
+  margin-top: -13px;
+  margin-left: 20px;
+}
+
+nav ion-icon#icone-user:hover {
+  color: darkgreen;
+  cursor: pointer;
+  
 }
