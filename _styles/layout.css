@@ -39,3 +39,29 @@ ul#esquerda {
 ul#direita {
   float: right;
 }
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  margin-top: 70px;
+  height:40px;
+}
+
+nav ul li {
+  list-style: none;
+
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px ;
+  border-radius: 70px;
+}
+
+nav ul li a:hover{
+  background-color: darkgreen;
+
+  transition-duration: 0.8s;
+}
