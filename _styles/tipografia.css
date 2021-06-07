@@ -116,6 +116,15 @@ div.pontos-chaves h4:after {
 /* ------------------------*/
 /*Seção - Pizzaa           */
 /* ------------------------*/
+section#pizza h2:after {
+  display: block;
+  background-color:#078c31;
+
+  height: 5px;
+  width: 20%;
+  margin: 20px auto 30px;content: " ";
+
+}
 
 section#pizza p {
   color: white;
@@ -136,4 +145,5 @@ section#pizza ul li {
 
 section#testemunha p.destaque {
   width: 40%;
+  background-color: white;
 }

@@ -129,6 +129,7 @@ header div#chamada {
 section#domingo-perfeito {
   width:100%;
   padding: 40px 0  80px;
+  height: 80vh;
 
   display:flex;
   flex-flow: row wrap;
@@ -169,7 +170,7 @@ div.folha2 {
 }
 div.folha3 {
   position: absolute;
-  top:100px;
+  top:80px;
   left:20;
   width: 160px;
   height: 150px;
@@ -187,7 +188,7 @@ div.tomate {
 }
 div.queijo  {
   position: absolute;
-  top:600px;
+  top:500px;
   left:10;
   width: 160px;
   height: 150px;
@@ -233,6 +234,7 @@ section#domingo-perfeito div.pontos-chaves ion-icon{
 section#pizza {
   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(../_imagens/secao10-background-secao-pizza.jpg);
   background-size: cover;
+  height: 80vh;
 
   padding: 40px 0 80px;
   display: flex;
@@ -351,4 +353,41 @@ section#testemunha div#testemunha-centro div#testemunhos ul img {
   margin-bottom:20px;
   border: 5px solid #f03733
 
+}
+
+/* --------------------*/
+/*Secção - Transição   */
+/* --------------------*/
+
+div#transicao-testemunho-plano{
+  width:100%;
+  height: 280px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+div#transicao-testemunho-plano div#decoracao1{
+  width:30%;
+  height:100%;
+
+  background-image: url(../_imagens/secao13-tomate-manjericao-alho.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+div#transicao-testemunho-plano div#decoracao2{
+  width:30%;
+  height:100%;
+
+  background-image: url(../_imagens/secao13-azeite.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+div#transicao-testemunho-plano div#decoracao3{
+  width:30%;
+  height:100%;
+
+  background-image: url(../_imagens/secao13-detalhe-tomate.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
