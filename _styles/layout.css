@@ -26,7 +26,7 @@ header {
   height: 100vh;
 
   border-top: 5px solid #078C31 ;
-  clip-path: polygon(0 0, 100% 0, 100% 97%,0 100%git);
+  clip-path: polygon(0 0, 100% 0, 100% 97%,0 100%);
   position: relative;
 }
 
@@ -175,7 +175,7 @@ div.tomate {
   background-image: url(../_imagens/secao09-tomate.png);
   background-repeat: no-repeat;  
 }
-div.queijogit  {
+div.queijo  {
   position: absolute;
   top:600px;
   left:10;
@@ -213,5 +213,38 @@ section#domingo-perfeito div.pontos-chaves ion-icon{
   height: 75px;
   color: #F03733;
 
+
+}
+
+/* ------------------------*/
+/*Seção - Pizzaa           */
+/* ------------------------*/
+
+section#pizza {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(../_imagens/secao10-background-secao-pizza.jpg);
+  background-size: cover;
+
+  padding: 40px 0 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+}
+
+div#opcoes-mestre {
+  width:80%;
+  margin-top:30px;
+
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div.pizza-opcoes {
+  width: 33.3%;
+  text-align: center;
+  margin: 5px 0;
 
 }
