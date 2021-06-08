@@ -64,6 +64,9 @@ p.destaque {
 header div#chamada h1 {
   color: #fff;
   text-shadow: 4px 6px 10px #000;
+  animation-name: headerH1-moverParaDireita;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
 }
 
 header div#chamada h4 {
@@ -71,6 +74,11 @@ header div#chamada h4 {
   text-shadow: 4px 6px 10px #000;
 
   margin-bottom: 55px;
+  animation-name: headerH4-moverParaEsquerda;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: backwards;
 }
 
 header div#chamada a{
@@ -187,4 +195,19 @@ section#plano-principal div.planos-bottom p {
   text-transform: uppercase;
   text-align: center;
   padding:30px;
+}
+
+/* --------------------*/
+/*    FOOTER           */
+/* --------------------*/
+footer div#info ul {
+  margin-left: 15px;
+  margin-bottom: 150px;
+}
+
+footer div#info li {
+  list-style: none;
+  color: #fff;
+  margin-bottom: 5px;
+
 }

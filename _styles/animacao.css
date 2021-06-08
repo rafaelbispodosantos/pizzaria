@@ -1,0 +1,30 @@
+/* Animação do Titule */
+
+@keyframes headerH1-moverParaDireita {
+  0% {
+    opacity: 0;
+    transform: translateX(-75px)
+  }
+  70% {
+    transform: translateX(20px)
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px)
+  }
+}
+
+@keyframes headerH4-moverParaEsquerda {
+
+  0% {
+    opacity: 0;
+    transform: translateX(50px)
+  }
+  70% {
+    transform: translateX(-5px)
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px)
+  }
+}

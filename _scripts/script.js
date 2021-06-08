@@ -37,3 +37,8 @@
   $('div#testemunha-direita ion-icon').css('opacity', 1);
   $('div#testemunha-direita ion-icon').css('cursor', 'pointer');
 })
+
+$("ion-icon#facebook").click(function() {
+  window.open("http://www.facebook.com","_black")
+})
+
