@@ -1,0 +1,103 @@
+/* tipografia*/
+p.destaque, section#pizza p.destaque, section#testemunha p.destaque{
+    width: 80%;
+}
+/* Header*/
+nav {
+    width: 110%;
+        left: 0%;   
+}
+
+nav div {
+   
+    width: 150px;
+    height: 130px;
+    background-position: center bottom;
+   
+}
+
+nav ul li a {
+   
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+
+.itemEstatico{
+    
+    padding: 19px 10px;
+}
+
+.logoEstatico{
+   
+    margin-left: 10px;
+  
+
+
+    
+}
+
+
+/*Domingo perfeito*/
+div#domingo-perfeito-esquerda,
+div#domingo-perfeito-direita {
+    display: none;
+}
+    
+div#domingo-perfeito-centro {
+    width: 95%;
+}
+
+/*pizzza*/
+div#pizza-opcoes-mestre{
+    width: 95%;
+}
+
+/*testemunhos*/
+div#testemunha-centro{
+    width: 680px;
+}
+
+div#testemunha-esquerda, div#testemunha-direita{
+    display: none;
+}
+
+/*transicao*/
+
+div#transicao-testemunha-plano{
+    display: none;
+
+}
+
+/* planos*/
+div#planos-janela{
+    width: 100%;
+}
+
+div.planos{
+    margin: 80px 5px;
+}
+
+@media screen and (max-width:940px){
+    div.planos{
+        width: 220px;
+    }
+}
+
+/* footer*/
+footer div#pizza-rodape-decoracao{
+    display: none;
+}
+
+footer div#mapa, footer div#info{
+    width: 45%;
+}
+
+footer div#info{
+    margin-right: 30px;
+}
+
+footer div#redes-sociais ion-icon{
+    
+    width: 10%;
+    
+}

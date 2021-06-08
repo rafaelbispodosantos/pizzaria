@@ -1,0 +1,113 @@
+/* Tipografia*/
+header div#chamada h1 {
+    font-size: 350%;
+}
+header div#chamada h4 {
+    font-size: 200%;
+    margin-bottom: 25px;
+}
+header div#chamada a {
+    border-radius: 0;
+}
+
+h2{
+    font-size: 250%;
+}
+
+
+/*Nav*/
+nav ul#esquerda, nav ul#direita  {
+    display: none;
+    position: absolute;
+    top: 40px; right: 30px;
+    background-color: black;
+}
+nav ul#direita  {
+    top: 192px;
+}
+
+nav ul li a, nav ul li a#criar-conta, .itemEstatico, .iconEstatico {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 0px;
+    font-size: 80%;
+    border: none;
+}
+
+nav ul#icone-menu-mobile{   
+    display: inline;
+    margin-right: 40px;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-wrap: nowrap;
+   
+  
+
+}
+/* Domingo Perfeito*/
+div#ponto-chaves-mestre{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.pontos-chaves {
+    
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+
+div.pontos-chaves p {
+    
+    font-size: 115%;
+    font-weight: 300;
+    line-height: 2em;
+}
+/*Testemunhos*/
+div#testemunha-centro {
+    width: 340px;
+}
+
+section#testemunha div#testemunha-centro div#testemunhos ul p {
+    font-size: 115%;
+    font-weight: 300;
+}
+
+/*Planos*/
+section#plano-principal{
+    width: 100%;
+    height: inherit;
+    
+}
+
+div#planos-janela{
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+div.planos{
+    width: 290px;
+}  
+/*Footer*/
+
+footer div#mapa{
+   
+    display: none;
+}
+
+footer div#info{
+    width: 90%;
+}
