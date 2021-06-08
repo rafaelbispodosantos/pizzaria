@@ -391,3 +391,50 @@ div#transicao-testemunho-plano div#decoracao3{
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+
+
+/* --------------------*/
+/*Secção - planos   */
+/* --------------------*/
+section#plano-principal {
+  width:100%;
+  padding: 40px 0  80px
+
+}
+
+div#plano-janela {
+  width:80%;
+  margin:30px auto;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+}
+
+div.planos {
+  width:250px;
+  height: 450px;
+  margin: 80px 30px;
+}
+div.planos-top{
+  width:250px;
+  height: 350px;
+  background-color: #f7f7f7;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #ccc;
+}
+
+div.planos-bottom{
+  width:250px;
+  height: 100px;
+  cursor: pointer;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #078C31;
+  text-align: center;
+  
+  box-shadow: 2px 2px 3px #ccc;
+
+}

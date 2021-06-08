@@ -40,6 +40,7 @@ h1 {
 h2 {
   font-size:400%;
   font-weight:200;
+  
 }
 
 p,li,a {
@@ -88,9 +89,7 @@ header div#chamada a{
 /* --------------------*/
 /*Elementos do Section */
 /* ---------------------*/
-section div#domingo-perfeito-centro h2{
-  font-size:300%;
-}
+
 section div#domingo-perfeito-centro h2:after {
   display: block;
   background-color:#078c31;
@@ -119,7 +118,6 @@ div.pontos-chaves h4:after {
 section#pizza h2:after {
   display: block;
   background-color:#078c31;
-
   height: 5px;
   width: 20%;
   margin: 20px auto 30px;content: " ";
@@ -142,8 +140,51 @@ section#pizza ul li {
 /* --------------------*/
 /*Secção testemunho    */
 /* ---------------------*/
+section#testemunha h2:after {
+  display: block;
+  background-color:#078c31;
+
+  height: 5px;
+  width: 20%;
+  margin: 20px auto 30px;content: " ";
+
+}
 
 section#testemunha p.destaque {
   width: 40%;
   background-color: white;
+}
+/* --------------------*/
+/*Secção - planos   */
+/* --------------------*/
+
+section#plano-principal h2:after {
+  display: block;
+  background-color:#078c31;
+
+  height: 5px;
+  width: 20%;
+  margin: 20px auto 30px;content: " ";
+
+}
+section#plano-principal h4 {
+  color: #D90404;  
+}
+section#plano-principal ul {
+  margin-top: 25px; 
+}
+section#plano-principal ul li {
+  font-size: 85%;
+  text-align: left;
+  margin-left: 30px;
+  line-height: 2;
+  text-decoration: none;
+}
+
+section#plano-principal div.planos-bottom p {
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  padding:30px;
 }
